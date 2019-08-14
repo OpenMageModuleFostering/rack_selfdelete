@@ -26,7 +26,7 @@ class Rack_SelfDelete_Block_Order_View extends Mage_Sales_Block_Order_View
 
     public function canCancel()
     {
-        if (Mage::getStoreConfig('selfdelete/selfdelete/candeleteorder') == true &&
+        if (Mage::getStoreConfig('selfdelete/selfdelete/candeleteorder') === 'true' &&
             $this->getOrder()->canCancel() && 
             $this->getOrder()->getState() === Mage_Sales_Model_Order::STATE_NEW) {
             return true;    
