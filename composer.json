@@ -1,0 +1,17 @@
+{
+    "name": "OpenMageModuleFostering/Rack_SelfDelete",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "This extension can delete customer account from frontend.
+And also customers can cancel their own order when status is "new".",
+    "authors": [
+    {
+        "name": "Hirokazu Nishi",
+        "email": "nishi@principle-works.jp"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
